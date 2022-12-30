@@ -101,7 +101,7 @@ function callbackHell(){
 setTimeout(()=>{
     console.log('Hi'); 
     setTimeout(()=>{
-        console.log('Ankita'); 
+        console.log('prepbytes'); 
     },2000)
 },1000)
 }
@@ -134,7 +134,7 @@ let promise = new Promise(function(resolve, reject) {
             const error=false;
             if(!error){
               setTimeout(() => {
-                resolve("ankita");
+                resolve("prepbytes");
               }, 100);
         }   
             else{
